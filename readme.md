@@ -41,7 +41,7 @@ Dalam assignment ini, kita akan membuat sebuah sistem yang terdiri dari ESP32 da
 
 ### 2. Menjalankan Server Lokal dengan `server.py`
 
-1. Pastikan Python sudah terinstal di komputer Anda. Jika belum, instal Python dari [python.org](https://www.python.org/).
+1. Instal Python
 2. Instal Flask
 4. Jalankan server
 5. Pastikan server berjalan di `http://192.168.0.1:5000/sensor/data`.
@@ -50,6 +50,4 @@ Dalam assignment ini, kita akan membuat sebuah sistem yang terdiri dari ESP32 da
 
 - Pastikan ESP32 dan komputer yang menjalankan server berada dalam jaringan yang sama.
 - Setelah kode diunggah ke ESP32 dan server berjalan, data dari sensor akan dikirimkan ke server setiap 3 detik.
-- Anda akan melihat data suhu dan kelembaban ditampilkan di serial monitor pada Wokwi dan juga di terminal yang menjalankan server Flask.
-
-Dengan mengikuti panduan ini, Anda akan dapat menjalankan sistem yang mengirim data dari sensor DHT11 ke server lokal menggunakan ESP32 dan Flask.
+- Data suhu dan kelembaban akan ditampilkan di serial monitor pada Wokwi dan juga di terminal yang menjalankan server Flask.
